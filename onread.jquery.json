@@ -1,0 +1,35 @@
+{
+	"name": "jquery-onread",
+	"title": "jQuery onRead",
+	"description": "An educated guess to discover whether a given element was read by the user",
+	"keywords": [
+		"jquery",
+		"onread",
+		"read"
+	],
+	"version": "0.1",
+	"author": {
+		"name": "Pedro Sena",
+		"email": "sena.pedro@gmail.com",
+		"url": "https://github.com/PedroSena"
+	},
+	"maintainers": [
+		{
+			"name": "Pedro Sena",
+			"email": "sena.pedro@gmail.com",
+			"url": "https://github.com/PedroSena"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"bugs": "https://github.com/PedroSena/jquery-onread/issues",
+	"homepage": "https://github.com/PedroSena/jquery-onread",
+	"docs": "https://github.com/PedroSena/jquery-onread#readme",
+	"download": "https://github.com/PedroSena/jquery-onread/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
