@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>jQuery Boilerplate</title>
+		<title>jQuery onRead</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-		<script src="../dist/jquery.boilerplate.js"></script>
+		<script src="../src/jquery.onread.js"></script>
 	</head>
 	<body>
+		<div id="element">
+			But we’re just getting warmed up. Let’s look at magazines (yes, many people still read them). Consider that one page of text in a typical weekly or bimonthly news-and-analysis-style publication (Forbes, The New Yorker, the New York Times magazine, etc.) contains roughly 900 words.
+		</div>
 		<script>
 			$(function() {
-				$("#element").defaultPluginName({
-					propertyName: "a custom value"
-				});
+				$("#element").readable();
+				$("#element").on("read", function(){
+					console.log("I'm listening to read event!")
+				})
 			});
 		</script>
 	</body>
